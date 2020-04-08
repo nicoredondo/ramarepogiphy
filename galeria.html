@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./Styles/styles.css">
+    <script src="./JS/galeria.js"></script>
+    <script src="./JS/index.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Chakra+Petch&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Chakra+Petch:700&display=swap" rel="stylesheet">
+</head>
+
+<body class="light" class="container">
+    <header>
+        <h1 class="Bienvenido">¡Bienvenidos/as a Gifos.com!------Donde los gifs están.//////Número de visitas:12.765803</h1>
+    </header>
+
+    <nav>
+        <div class="navbar_container">
+            <div class="navbar_logo_container">
+                <div class="navbar_logoimg">
+                    <div>
+                        <a href="index.html"><img src="./assets/gifOF_logo.png" id="img_light" class="logo_light_galeria" alt="logo-gifos"></a>
+                    </div>
+                    <div>
+                        <a href="index.html"><img src="./assets/gifOF_logo_dark.png" id="img_dark" class="logo_dark_galeria" alt="logo-gifos"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="navbar__menu-container">
+                <button class="button-1" id="crear"><span><a href="./pre-captura1.html">Crear Gifos</a></span></button>
+                <button class="button-1" id="elegir"><span>Elegir Tema</span></button>
+                <button class="button-2" id="toggle_menu"><span><img class="flecha-drop" src="./assets/dropdown.svg" alt="flecha-desplegable"></span></button>
+                <a class="misguifos" href="./galeria.html"><span><u>M</u>is Guifos</span></a>
+            </div>
+        </div>
+    </nav>
+    <div id="menu_theme">
+        <ul class="menu_estilos">
+            <li><button id="day">Sailor Day</button></li>
+            <li><button id="night">Sailor Night</button></li>
+        </ul>
+    </div>
+    <div class="mis_guifos_galeria">
+        <section class="mis_guifos" id="misguifos">
+            <div class="mis_guifos_barra">
+                <h6>Mis guifos</h6>
+            </div>
+        </section>
+    </div>
+    <section class="galeria">
+        <div id="mis_guifos_container"></div>
+    </section>
+
+</body>
+
+</html>

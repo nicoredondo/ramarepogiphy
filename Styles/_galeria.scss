@@ -1,0 +1,28 @@
+.galeria {
+    width: 70%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 20px;
+    position: absolute;
+    left: -150px;
+    top: -650px;
+    right: 200px;
+}
+
+.mis_guifos_galeria {
+    position: absolute;
+    top: 200px;
+    left: 50px;
+}
+
+.logo_light_galeria {
+    position: relative;
+    right: 150px;
+}
+
+.logo_dark_galeria {
+    position: relative;
+    right: 150px;
+}

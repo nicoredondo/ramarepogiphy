@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./Styles/styles.css">
+    <script src="./JS/api.js"></script>
+    <script src="./JS/index.js"></script>
+    <script src="./JS/search.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Chakra+Petch&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Chakra+Petch:700&display=swap" rel="stylesheet">
+</head>
+
+<body class="light" class="container">
+    <header>
+        <h1 class="Bienvenido">¡Bienvenidos/as a Gifos.com!------Donde los gifs están.//////Número de visitas:12.765803</h1>
+    </header>
+
+    <nav>
+        <div class="navbar_container">
+            <div class="navbar_logo_container">
+                <div class="navbar_logoimg">
+                    <div><img src="./assets/gifOF_logo.png" id="img_light" alt="logo-gifos"></div>
+                    <div><img src="./assets/gifOF_logo_dark.png" id="img_dark" alt="logo-gifos"></div>
+                </div>
+            </div>
+            <div class="navbar__menu-container">
+                <button class="button-1" id="crear"><span><a href="./crea.html">Crear Gifos</a></span></button>
+                <button class="button-1" id="elegir"><span>Elegir Tema</span></button>
+                <button class="button-2" id="toggle_menu"><span><img class="flecha-drop" src="./assets/dropdown.svg" alt="flecha-desplegable"></span></button>
+                <a class="misguifos" href="./galeria.html"><span><u>M</u>is Guifos</span></a>
+            </div>
+        </div>
+    </nav>
+    <div id="menu_theme">
+        <ul class="menu_estilos">
+            <li><button id="day">Sailor Day</button></li>
+            <li><button id="night">Sailor Night</button></li>
+        </ul>
+    </div>
+    <div class="buscador">
+        <div class="buscador_text">
+            <p class="buscador_buscar">Buscar</p>
+            <div class="buscador_elementos">
+                <input id="buscador_input" type="text" name="buscador" placeholder="Busca gifs,hashtags,temas,busca lo que quieras..." class="buscador_tipeo"></input>
+                <button id="buscador_button"><span><img src="./assets/lupa.svg" alt="lupa" class="lupa">Buscar</span></button>
+            </div>
+        </div>
+    </div>
+    <div class="resultados" id="div_resultados">
+        <div class="resultados_grupo">
+            <button class="resultados_button" id="button_sugerido"><span>#gameofthrones</span></button>
+            <button class="resultados_button" id="button_resultado"><span>#harrypotter</span></button>
+            <button class="resultados_button" id="button_otro_mas"><span>#freddiemercury</span></button>
+        </div>
+    </div>
+    <section class="sugerencias-gral">
+        <h6 class="sugerencias">Hoy te sugerimos</h6>
+        <div class="sugerencias_resultados">
+            <div class="gif_1">
+                <div class="sugerencias_titulo">
+                    <p>#thebigbangtheory</p><img src="./assets/close.svg" class="sugerencias_close" alt="cruz para cerrar">
+                </div>
+                <img id="gify1" src="https://media0.giphy.com/media/jAYUbVXgESSti/giphy.gif" alt="Gif cargando">
+                <button class="sugerencias_button" id="sugerencia1"><span>Ver más</span></button>
+            </div>
+            <div class="gif_2">
+                <div class="sugerencias_titulo">
+                    <p>#messi</p><img src="./assets/close.svg" class="sugerencias_close" alt="cruz para cerrar">
+                </div>
+                <img id="gify2" src="https://media0.giphy.com/media/jAYUbVXgESSti/giphy.gif" alt="Gif cargando">
+                <button class="sugerencias_button" id="sugerencia2"><span>Ver más</span></button>
+            </div>
+            <div class="gif_3">
+                <div class="sugerencias_titulo">
+                    <p>#tigerwoods</p><img src="./assets/close.svg" class="sugerencias_close" alt="cruz para cerrar">
+                </div>
+                <img id="gify3" src="https://media0.giphy.com/media/jAYUbVXgESSti/giphy.gif" alt="Gif cargando">
+                <button class="sugerencias_button" id="sugerencia3"><span>Ver más</span></button>
+            </div>
+            <div class="gif_4">
+                <div class="sugerencias_titulo">
+                    <p>#friends</p><img src="./assets/close.svg" class="sugerencias_close" alt="cruz para cerrar">
+                </div>
+                <img id="gify4" src="https://media0.giphy.com/media/jAYUbVXgESSti/giphy.gif" alt="Gif cargando">
+                <button class="sugerencias_button" id="sugerencia4"><span>Ver más</span></button>
+            </div>
+        </div>
+    </section>
+    <section>
+        <h6 class="tendencias">Tendencias</h6>
+        <div id="tendencias_container">
+        </div>
+
+    </section>
+
+</body>
+
+</html>

@@ -1,0 +1,372 @@
+.dark {
+    background-color: #110038;
+    color: white;
+    .navbar_logoimg {
+        background-repeat: no-repeat;
+        margin-left: 90px;
+        #img_light {
+            background-image: url(../assets/gifOF_logo.png);
+            display: none;
+        }
+    }
+    #img_light2 {
+        background-image: url(../assets/gifOF_logo.png);
+        display: none;
+    }
+    .button-1 {
+        width: 144px;
+        height: 36px;
+        background: #EE3EFE;
+        border: 1px solid #110038;
+        font-size: 1rem;
+        box-shadow: inset -1px -1px 0 0 #997D97, inset 1px 1px 0 0 #FFFFFF;
+        color: #FFFFFF;
+        a {
+            text-decoration: none;
+            color: #FFFFFF;
+        }
+        &:hover {
+            background: #CE36DB;
+            span {
+                border: 1px dotted #110038;
+                width: 100%;
+                height: 100%;
+            }
+        }
+    }
+    .misguifos {
+        text-decoration: none;
+        color: #FFFFFF;
+         :hover {
+            border-style: dotted;
+            border-width: 1px;
+            color: #FFFFFF;
+        }
+    }
+    .button-2 {
+        width: 36px;
+        height: 36px;
+        background: #EE3EFE;
+        border: 1px solid #110038;
+        font-size: 1rem;
+        box-shadow: inset -1px -1px 0 0 #A72CB3, inset 1px 1px 0 0 #FFFFFF;
+        color: #110038;
+        position: relative;
+        right: 12px;
+        top: 3px;
+        &:hover {
+            background: #CE36DB;
+            span {
+                border: 1px dotted #110038;
+                width: 100%;
+                height: 100%;
+            }
+        }
+    }
+    .mis_guifos {
+        list-style: none;
+        color: white
+    }
+    .menu_estilos {
+        width: 194px;
+        height: 102px;
+        background: #B4B4B4;
+        box-shadow: inset -2px -2px 0 0 #8F8F8F, inset 2px 2px 0 0 #FFFFFF;
+        position: absolute;
+        left: 925px;
+        top: 106px;
+        list-style: none;
+        z-index: 2;
+        display: 'none';
+    }
+    #day,
+    #night {
+        width: 150px;
+        height: 36px;
+        background: #CCCCCC;
+        border: 1px solid #808080;
+        box-shadow: inset -1px -1px 0 0 #B4B4B4, inset 1px 1px 0 0 #FFFFFF;
+        margin-left: 18px;
+        margin-top: 5px;
+        &:hover {
+            background: #2E32FB;
+            border: 1px solid rgba(51, 53, 143, 0.20);
+            box-shadow: inset -1px -1px 0 0 #E6DCE4, inset 1px 1px 0 0 #FFFFFF;
+            color: #FFFFFF;
+        }
+    }
+    .buscador {
+        height: 99px;
+        z-index: 1;
+        position: absolute;
+        width: 100%;
+        &_elementos {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+        }
+        &_text {
+            background: #B4B4B4;
+            box-shadow: inset -2px -2px 0 0 #8F8F8F, inset 2px 2px 0 0 #FFFFFF;
+            margin-top: 50px;
+            margin-left: 140px;
+            margin-right: 140px;
+        }
+        &_tipeo {
+            padding-top: 4px;
+            margin-left: 20px;
+            margin-top: 6px;
+            margin-bottom: 8px;
+            font-size: 16px;
+            color: #B4B4B4;
+            height: 28px;
+            width: 1057px;
+        }
+        &_buscar {
+            background-image: linear-gradient(270deg, #EE3EFE 0%, #2E32FB 100%);
+            padding: 1px;
+            color: white;
+            margin-top: 20px;
+            margin-left: 3px;
+            margin-right: 3px;
+            font-size: 14px;
+            height: 24px;
+        }
+        #buscador_button {
+            background: #EE3EFE;
+            border: 1px solid #110038;
+            box-shadow: inset -1px -1px 0 0 #A72CB3, inset 1px 1px 0 0 #FFFFFF;
+            width: 102px;
+            height: 36px;
+            margin-left: 38px;
+            margin-top: -2px;
+            margin-right: 20px;
+            font-size: 16px;
+            color: #FFFFFF;
+            letter-spacing: 0;
+            line-height: 18px;
+            &:hover {
+                background: #CE36DB;
+                border: 1px solid #110038;
+                box-shadow: inset -1px -1px 0 0 #A72CB3, inset 1px 1px 0 0 #FFFFFF;
+                span {
+                    border: 1px dotted #110038;
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+        }
+    }
+    .display_on {
+        display: block;
+    }
+    .display_off {
+        display: none;
+    }
+    .resultados {
+        background: #B4B4B4;
+        box-shadow: inset -2px -2px 0 0 #8F8F8F, inset 2px 2px 0 0 #FFFFFF;
+        height: 160px;
+        margin-left: 140px;
+        margin-right: 140px;
+        margin-top: 125px;
+        width: 79%;
+        display: none;
+        position: absolute;
+        z-index: 3;
+        &_grupo {
+            display: flex;
+            flex-direction: column;
+        }
+        &_button {
+            background: #CCCCCC;
+            border: 1px solid #808080;
+            box-shadow: inset -1px -1px 0 0 #B4B4B4, inset 1px 1px 0 0 #FFFFFF;
+            width: 1057px;
+            height: 36px;
+            text-align: left;
+            margin-top: 10px;
+            margin-left: 10px;
+            font-size: 16px;
+            color: #110038;
+            letter-spacing: 0;
+            line-height: 22px;
+            padding-left: 15px;
+            &:hover {
+                background: #B4B4B4;
+                box-shadow: inset -2px -2px 0 0 #8F8F8F, inset 2px 2px 0 0 #FFFFFF;
+                border: 1px dotted #110038;
+            }
+        }
+    }
+    .sugerencias {
+        background: #FFFAFE;
+        border: 1px solid #2E32FB;
+        box-shadow: inset -2px -2px 0 0 #E6DCE4, inset 2px 2px 0 0 #110038;
+        font-size: 14px;
+        color: #110038;
+        letter-spacing: 0;
+        position: absolute;
+        z-index: 2;
+        width: 80%;
+        margin-top: 200px;
+        margin-left: 135px;
+        &_titulo {
+            background-image: linear-gradient(270deg, #EE3EFE 0%, #2E32FB 100%);
+            width: 94%;
+            height: 24px;
+            margin-left: 4px;
+            margin-top: 3px;
+            font-weight: 700;
+            font-size: 14px;
+            color: #FFFFFF;
+            letter-spacing: 0;
+            padding-left: 5px;
+            display: flex;
+            justify-content: space-between;
+        }
+        &_button {
+            background: #4180F6;
+            border: 1px solid #4C2F99;
+            box-shadow: inset -2px -2px 0 0 #284F99, inset 2px 2px 0 0 #FFFFFF;
+            color: white;
+            position: relative;
+            left: 10px;
+            top: -40px;
+            margin-bottom: 200px;
+            margin-right: 180px;
+            width: 81px;
+            height: 34px;
+            z-index: 10000;
+            &:hover {
+                border: 1px dotted #110038;
+            }
+        }
+    }
+    .crear_titulo_3 {
+        background-image: linear-gradient(270deg, #EE3EFE 0%, #2E32FB 100%);
+        width: 681px;
+        height: 24px;
+        color: white;
+        position: relative;
+        margin-left: 3px;
+        margin-top: 3px;
+        z-index: 1;
+    }
+    .crear_titulo {
+        background-image: linear-gradient(270deg, #EE3EFE 0%, #2E32FB 100%);
+    }
+    .crear_titulo_2 {
+        background-image: linear-gradient(270deg, #EE3EFE 0%, #2E32FB 100%);
+        width: 858px;
+        height: 24px;
+        color: white;
+        position: relative;
+        margin-left: 3px;
+        margin-top: 3px;
+        z-index: 1;
+    }
+    .tendencias {
+        background: #FFFAFE;
+        border: 1px solid #2E32FB;
+        box-shadow: inset -2px -2px 0 0 #E6DCE4, inset 2px 2px 0 0 #110038;
+        font-size: 14px;
+        color: #110038;
+        letter-spacing: 0;
+        position: absolute;
+        z-index: 1;
+        width: 80%;
+        margin-top: 600px;
+        margin-left: 135px;
+    }
+    .comenzar_button {
+        width: 144px;
+        height: 36px;
+        background: #110038;
+        border: 1px solid #B4B4B4;
+        box-shadow: inset -1px -1px 0 0 #5C5C5C, inset 1px 1px 0 0 #FFF4FD;
+    }
+    .button_capturar {
+        background: #EE3EFE;
+        border: 1px solid #110038;
+        box-shadow: inset -1px -1px 0 0 #A72CB3, inset 1px 1px 0 0 #FFFFFF;
+        width: 144px;
+        height: 36px;
+        color: white;
+    }
+    .button_capturar_2 {
+        background: #FF6161;
+        border: 1px solid #110038;
+        box-shadow: inset -1px -1px 0 0 #993A3A, inset 1px 1px 0 0 #FFFFFF;
+        color: white;
+        width: 144px;
+        height: 36px;
+    }
+    .button_cam {
+        background: #EE3EFE;
+        border: 1px solid #110038;
+        box-shadow: inset -1px -1px 0 0 #A72CB3, inset 1px 1px 0 0 #FFFFFF;
+        width: 36px;
+        height: 36px;
+    }
+    .button_cam_2 {
+        background: #FF6161;
+        border: 1px solid #110038;
+        box-shadow: inset -1px -1px 0 0 #993A3A, inset 1px 1px 0 0 #FFFFFF;
+        width: 36px;
+        height: 36px;
+    }
+    .barra_carga {
+        .barra_barra {
+            width: 240px;
+            height: 24px;
+            position: absolute;
+            top: 720px;
+            left: 449px;
+            background: #B4B4B4;
+            box-shadow: inset 2px 2px 0 0 #000000, inset -2px -2px 0 0 #FFFCFC;
+            .divisor1 {
+                width: 60px;
+                height: 20px;
+                background: #EE3EFE;
+                margin-top: 2px;
+                margin-left: 2px;
+            }
+            .divisor2 {
+                width: 176px;
+                height: 20px;
+                background: #999999;
+                margin-top: -20px;
+                margin-left: 62px;
+            }
+        }
+    }
+    .cancelar_button {
+        width: 144px;
+        height: 36px;
+        background: #EE3EFE;
+        border: 1px solid #110038;
+        box-shadow: inset -1px -1px 0 0 #A72CB3, inset 1px 1px 0 0 #FFFFFF;
+        margin-right: 15px;
+        a {
+            text-decoration: none;
+            color: white;
+        }
+    }
+    .comenzar_button {
+        width: 144px;
+        height: 36px;
+        background: #EE3EFE;
+        border: 1px solid #110038;
+        box-shadow: inset -1px -1px 0 0 #A72CB3, inset 1px 1px 0 0 #FFFFFF;
+        color: white;
+    }
+    .segundos {
+        text-align: center;
+        padding-top: 5px;
+    }
+    .segundos2 {
+        text-align: center;
+        padding-top: 5px;
+    }
+}
