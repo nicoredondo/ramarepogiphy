@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", async() => {
 
     const api_url = 'https://api.giphy.com/v1/gifs'
-    const api_key = 'MOE8e6uGerdha1qiDoKZUG8d26VfSZc8'
+    const api_key = 'jQmZwNc6XsyPUyqJJFszYdc6sKP8JKaG'
     const endpoints = {
         upload: `https://upload.giphy.com/v1/gifs?api_key=${api_key}`
     }

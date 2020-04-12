@@ -4,7 +4,7 @@ function setFourResults(imageid, gifid) {
 }
 
 function giveFourGif(tag, imageid) {
-    fetch('https://api.giphy.com/v1/gifs/random?api_key=cSZTiYeFOF3fqIBzWZbkF8W2514t8iSq&tag=' + tag)
+    fetch('https://api.giphy.com/v1/gifs/random?api_key=jQmZwNc6XsyPUyqJJFszYdc6sKP8JKaG&tag=' + tag)
         .then((response) => {
             return response.json()
         }).then((json) => {

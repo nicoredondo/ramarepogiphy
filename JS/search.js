@@ -145,7 +145,7 @@ function init() {
         })
         //Botones de "Ver Mas"
     button_ver_mas1.addEventListener('click', () => {
-        url = `https://api.giphy.com/v1/gifs/search?api_key=MOE8e6uGerdha1qiDoKZUG8d26VfSZc8&limit=12&q=`
+        url = `https://api.giphy.com/v1/gifs/search?api_key=jQmZwNc6XsyPUyqJJFszYdc6sKP8JKaG&limit=12&q=`
         url += 'thebigbangtheory';
         fetch(url)
             .then(response => response.json())
